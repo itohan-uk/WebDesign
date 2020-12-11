@@ -1,0 +1,112 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: left -10.5rem top -21rem, right -7rem bottom -75rem;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+.card {
+    height: 23rem;
+    width: 21rem;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.card-img {
+    width: 21rem;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    left: 0; right: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.victor {
+    position: absolute;
+    left: 0; right: 0;
+    margin: auto;
+    top: 5rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: white solid 0.29rem;   
+}
+
+.name {
+    position: relative;
+    top: 12rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+   
+}
+
+.age {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.location {
+    position: relative;
+    top: 11.5rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.line {
+    position: relative;
+    top: 13rem;
+    border-top: hsl(0, 0%, 59%);
+}
+
+.follow {
+    position: relative;
+    display: inline-block;
+    top: 13rem;
+    right: 3rem;
+}
+
+
+.likes {
+    position: relative;
+    display: inline-block;
+    top: 13rem;
+    margin: auto;
+    left: 0; right: 0;
+}
+
+.photos {
+    position: relative;
+    display: inline-block;
+    top: 13rem;
+    left: 3rem;
+}
+
+.num {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 0.3rem;
+}
+
+.word {
+    margin-block-start: 0;
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.attribution {
+    font-size: 0.6rem;
+    position: relative;
+    top: 37rem;
+}
